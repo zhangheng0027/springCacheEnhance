@@ -1,0 +1,18 @@
+
+
+spring:
+  data.redis:
+    #    host: 192.168.115.248
+    host: 127.0.0.1
+    port: 8252
+    username: default
+    password: 597235
+    connect-timeout: 20s
+    timeout: 5s
+    database: 0
+
+  cache:
+    type: redis
+    redis:
+      key-prefix: oee-
+      time-to-live: 1d
